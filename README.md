@@ -23,8 +23,11 @@ class Alligator {
         this.tailLengthInch = tailLengthInch;
         this.teethSize = teethSize;
     }
-    eat(food){
+    eat(food) {
         console.log(`Chomp chomp all the ${food}ies.`)
+    }
+    speak(noise) {
+        alert(`The ${this.constructor.name} says ${noise}!`)
     }
 }
 
