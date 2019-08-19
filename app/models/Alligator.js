@@ -3,7 +3,7 @@ class Alligator {
         this.id = 0;
         this.name = data.name || null;
         this.color = data.color || null;
-        this.gender = data.gender || null;
+        this.sex = data.sex || null;
         this.weight = data.weight || null;
         this.tailLengthInch = data.tailLengthInch || null;
         this.teethSize = data.teethSize || null;
